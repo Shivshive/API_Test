@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "statuc": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "string"
+    },
+    "request_body": {
+      "type": "object",
+      "properties": {
+        "streetName": {
+          "type": "string"
+        },
+        "number": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "streetName",
+        "number",
+        "city",
+        "country"
+      ]
+    }
+  },
+  "required": [
+    "statuc",
+    "message",
+    "request_body"
+  ]
+}

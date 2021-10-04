@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1674" started-at="2021-10-04T13:41:11 IST" finished-at="2021-10-04T13:41:13 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1674" started-at="2021-10-04T13:41:11 IST" finished-at="2021-10-04T13:41:13 IST">
+      <class name="test_classes.Test1">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test_classes.Test1@5bfbf16f]" name="beforeSuite" is-config="true" duration-ms="1252" started-at="2021-10-04T13:41:10 IST" finished-at="2021-10-04T13:41:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="StatusCodeTest()[pri:0, instance:test_classes.Test1@5bfbf16f]" name="StatusCodeTest" duration-ms="909" started-at="2021-10-04T13:41:11 IST" finished-at="2021-10-04T13:41:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StatusCodeTest -->
+        <test-method status="PASS" signature="schemaValidation()[pri:0, instance:test_classes.Test1@5bfbf16f]" name="schemaValidation" duration-ms="720" started-at="2021-10-04T13:41:12 IST" finished-at="2021-10-04T13:41:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- schemaValidation -->
+      </class> <!-- test_classes.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
